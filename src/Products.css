@@ -1,0 +1,83 @@
+.productContainer{
+   display: flex;
+   justify-self: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap:5em;
+}
+.productContainer .card{
+    height:300px;
+    width:250px;
+    background-color: rgb(35, 35, 52);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0.3rem;
+    border-radius: 10px;
+box-shadow: 0px 4 15px green;
+}
+.productContainer .card:hover{
+     height:400px;
+    width:250px;
+    background-color: rgb(35, 35, 52);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0.3rem;
+}
+.card img {
+    /* height:50%; */
+
+    width:100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.navbar {
+    background-color: #111827;
+    color: white;
+    height:100px;
+    width: 100%;
+
+}
+.navbar .heading{
+    font-size: 2em;
+}
+input,
+select {
+    background-color: white;
+    color: #111827;
+    border: 2px solid #4fd1c5;
+}
+.navbar input{
+      width:20em;
+    border:1px solid black;
+    border-radius: 0.25rem;
+  
+    padding:0.2em ;
+    font-size: 17px;
+}
+.navbar .select{
+    border:1px solid black;
+    border-radius: 0.25rem;
+    width:10em;
+    padding:0.2em ;
+    font-size: 11px;
+}
+
+.sale-banner{
+    height:70px;
+    width:100%;
+    background-color:green;
+    color:white;
+      margin-bottom: 20px;
+      font-size: 28px;
+      font-weight: 400;
+}
